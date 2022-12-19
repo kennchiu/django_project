@@ -61,6 +61,8 @@ class Migration(migrations.Migration):
                     ),
                 ),
             ],
-            options={"verbose_name_plural": "Categories",},
+            options={
+                "verbose_name_plural": "Categories",
+            },
         ),
     ]
